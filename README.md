@@ -1,6 +1,5 @@
-# Aderox
-
-Linux tinkerer • OS development • Package managers
+# Aderox20_dev
+I do tech things and stuff
 
 ## GitHub Stats
 
