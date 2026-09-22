@@ -5,14 +5,8 @@ Linux tinkerer • OS development • Package managers
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aderox20&show_icons=true&theme=github_dark" height="180">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aderox20&layout=compact&theme=github_dark" height="180">
-</p>
-
-## Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=aderox20&theme=github-dark" height="180">
+  <img src="./profile/stats.svg" height="180" alt="GitHub stats">
+  <img src="./profile/languages.svg" height="180" alt="Top languages">
 </p>
 
 ## Projects
