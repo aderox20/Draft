@@ -18,9 +18,9 @@ I do tech things and stuff
 
 <p align="center">
   <a href="https://github.com/aderox20/GPTOS">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aderox20&repo=GPTOS&theme=github_dark" alt="GPTOS">
+    <img src="./profile/gptos.svg" alt="GPTOS">
   </a>
   <a href="https://github.com/aderox20/GPT-PackageManager">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=aderox20&repo=GPT-PackageManager&theme=github_dark" alt="GPT Package Manager">
+    <img src="./profile/gptpm.svg" alt="GPT Package Manager">
   </a>
 </p>
