@@ -13,7 +13,7 @@ I do tech things and stuff
 ## Streak
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aderox20/aderox20/output/github-streak-stats.svg" width="495" height="245" alt="GitHub streak">
+  <img src="./profile/github-streak-stats.svg" width="495" height="245" alt="GitHub streak">
 </p>
 
 ## Projects
