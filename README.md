@@ -4,14 +4,14 @@ I do tech things and stuff
 ## GitHub Stats
 
 <p align="center">
-  <img src="./profile/stats.svg" height="180" alt="GitHub stats">
-  <img src="./profile/languages.svg" height="180" alt="Top languages">
+  <img src="./profile/stats.svg" width="495" height="245" alt="GitHub stats">
+  <img src="./profile/languages.svg" width="495" height="245" alt="Top languages">
 </p>
 
 ## Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=aderox20&theme=github-dark" height="180" alt="GitHub streak">
+  <img src="./profile/streak.svg" width="495" height="245" alt="GitHub streak">
 </p>
 
 ## Projects
