@@ -74,6 +74,6 @@ card(
     ],
     "stats.svg",
 )
-
+# .
 rows = [(lang, f"{count / total_bytes * 100:.1f}%") for lang, count in top_langs]
 card(f"{USER}'s Top Languages", rows or [("No language data", "—")], "languages.svg", height=max(120, 65 + len(rows) * 35))
