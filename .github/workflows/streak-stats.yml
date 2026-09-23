@@ -25,10 +25,25 @@ jobs:
           OUTPUT_PATH: github-streak-stats.svg
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4.2.0
-        with:
-          target_branch: output
-          build_dir: .
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cp github-streak-stats.svg /tmp/github-streak-stats.svg
+
+          git fetch origin output || true
+
+          if git show-ref --verify --quiet refs/remotes/origin/output; then
+            git worktree add /tmp/output origin/output
+          else
+            git worktree add --detach /tmp/output
+            git -C /tmp/output switch --orphan output
+            git -C /tmp/output rm -rf . || true
+          fi
+
+          cp /tmp/github-streak-stats.svg /tmp/output/github-streak-stats.svg
+
+          git -C /tmp/output config user.name "github-actions[bot]"
+          git -C /tmp/output config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C /tmp/output add github-streak-stats.svg
+          git -C /tmp/output commit -m "Update streak stats" || true
+          git -C /tmp/output push origin HEAD:output
+
+          git worktree remove /tmp/output --force
