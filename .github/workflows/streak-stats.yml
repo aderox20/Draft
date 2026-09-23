@@ -23,6 +23,7 @@ jobs:
           CURR_STREAK_NUM: "#f9e2af"
           CURR_STREAK_LABEL: "#fab387"
           FIRE: "#fab387"
+          STROKE: "#cba6f7"
           OUTPUT_PATH: github-streak-stats.svg
 
       - name: Update README copy
