@@ -19,9 +19,9 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           THEME: catppuccin-mocha
-          RING: fab387
-          CURR_STREAK_NUM: f9e2af
-          FIRE: fab387
+          RING: "#fab387"
+          CURR_STREAK_NUM: "#f9e2af"
+          FIRE: "#fab387"
           OUTPUT_PATH: github-streak-stats.svg
 
       - name: Push to output branch
