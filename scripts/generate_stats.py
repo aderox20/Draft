@@ -55,7 +55,7 @@ def card(title, rows, filename, width=495, height=245):
         )
         y += 35
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-<rect width="100%" height="100%" rx="10" fill="#0d1117" stroke="#30363d"/>
+<rect width="100%" height="100%" rx="10" fill="#0d1117"/>
 <text x="28" y="34" fill="#f0f6fc" font-size="20" font-weight="700" font-family="Arial,sans-serif">{esc(title)}</text>
 {"".join(body)}
 </svg>
