@@ -3,10 +3,12 @@ I do tech things and stuff
 
 ## GitHub Stats
 
-<p align="center">
-  <img src="./profile/stats.svg" width="495" height="245" alt="GitHub stats">
-  <img src="./profile/languages.svg" width="495" height="245" alt="Top languages">
-</p>
+<table>
+<tr>
+<td><img src="./profile/stats.svg" width="495" height="245" alt="GitHub stats"></td>
+<td><img src="./profile/languages.svg" width="495" height="245" alt="Top languages"></td>
+</tr>
+</table>
 
 ## Streak
 
